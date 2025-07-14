@@ -65,6 +65,4 @@ Affordmed/
 - Ensure MongoDB is running locally on port 27017
 - If ports are in use, update them in `application.properties` (backend) or Vite config (frontend)
 - CORS is enabled for `http://localhost:5173` in backend config
-
-## License
-MIT (add your license here) 
+ 
