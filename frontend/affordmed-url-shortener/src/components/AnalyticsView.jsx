@@ -20,7 +20,7 @@ function AnalyticsView() {
     setError('');
     setStats(null);
     try {
-      const res = await axios.get(`http://localhost:8080/shorturls/stats/${shortcode}`);
+      const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/shorturls/stats/${shortcode}`);
       setStats(res.data);
     } catch (err) {
       setError(err.response?.data?.error || 'Shortcode not found');

@@ -35,7 +35,7 @@ function UrlShortenerForm({ onShorten }) {
       const results = await Promise.all(
         urls.map(({ url, validity, shortcode }) =>
           axios
-            .post(`http://localhost:8080/shorturls`, {
+            .post(`${import.meta.env.VITE_API_BASE_URL}/shorturls`, {
               url,
               validity: validity ? Number(validity) : undefined,
               shortcode: shortcode || undefined

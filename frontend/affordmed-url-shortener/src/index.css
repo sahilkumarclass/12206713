@@ -1,4 +1,4 @@
-/* Base styles */
+
 body {
     font-family: 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     background: #f7f9fb;
@@ -12,7 +12,6 @@ body {
     flex-direction: column;
 }
 
-/* Container overrides for MUI */
 .MuiContainer-root {
     background: #fff;
     border-radius: 16px;
@@ -22,7 +21,6 @@ body {
     margin-bottom: 40px;
 }
 
-/* Typography enhancements */
 h1,
 h2,
 h3,
@@ -33,7 +31,6 @@ h6 {
     font-weight: 700;
 }
 
-/* Form styles */
 form {
     margin-bottom: 32px;
 }
@@ -78,7 +75,7 @@ form {
     background: #e3eaf3;
 }
 
-/* Link styles */
+
 a {
     color: #1976d2;
     text-decoration: none;
@@ -89,14 +86,13 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Error text */
 .error,
 .MuiTypography-colorError {
     color: #d32f2f !important;
     font-weight: 500;
 }
 
-/* Analytics box */
+
 .analytics-box {
     background: #f3f6fa;
     border-radius: 12px;
@@ -104,7 +100,7 @@ a:hover {
     margin-top: 24px;
 }
 
-/* Responsive tweaks */
+
 @media (max-width: 600px) {
     .MuiContainer-root {
         padding: 12px 4px 24px 4px;
